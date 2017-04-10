@@ -7,15 +7,47 @@ mpl.use('agg')
 
 import matplotlib.pyplot as plt
 
-## Create data
-df = pd.read_excel("C:/HR_Data.xlsx")
+DataUrl = "C:/HR_Data.xlsx"
+histUrl="histograms/"
 
+df = pd.read_excel(DataUrl,"Worksheet",parse_cols=8)
+df["satisfaction_level"].plot.hist()
+fig = plt.figure(1, figsize=(20, 100))
+fig.savefig(histUrl+'hist_satisfaction_level.png', bbox_inches='tight')
+plt.close(fig)
 
-df.plot.hist(alpha=0.5)
-# Create a figure instance
-fig = plt.figure(1, figsize=(9, 6))
+df = pd.read_excel(DataUrl,"Worksheet",parse_cols=8)
+df["last_evaluation"].hist()
+fig = plt.figure(1, figsize=(20, 100))
+fig.savefig(histUrl+'hist_last_evaluation.png', bbox_inches='tight')
+plt.close(fig)
 
+df = pd.read_excel(DataUrl,"Worksheet",parse_cols=8)
+df["number_project"].hist()
+fig = plt.figure(1, figsize=(20, 100))
+fig.savefig(histUrl+'hist_number_project.png', bbox_inches='tight')
+plt.close(fig)
 
+df = pd.read_excel(DataUrl,"Worksheet",parse_cols=8)
+df["average_montly_hours"].hist()
+fig = plt.figure(1, figsize=(20, 100))
+fig.savefig(histUrl+'hist_average_montly_hours.png', bbox_inches='tight')
+plt.close(fig)
 
-# Save the figure
-fig.savefig('histogram.png', bbox_inches='tight')
+df = pd.read_excel(DataUrl,"Worksheet",parse_cols=8)
+df["time_spend_company"].hist()
+fig = plt.figure(1, figsize=(20, 100))
+fig.savefig(histUrl+'hist_time_spend_company.png', bbox_inches='tight')
+plt.close(fig)
+
+df = pd.read_excel(DataUrl,"Worksheet",parse_cols=8)
+df["Work_accident"].hist()
+fig = plt.figure(1, figsize=(20, 100))
+fig.savefig(histUrl+'hist_Work_accident.png', bbox_inches='tight')
+plt.close(fig)
+
+df = pd.read_excel(DataUrl,"Worksheet",parse_cols=8)
+df["left"].hist()
+fig = plt.figure(1, figsize=(20, 100))
+fig.savefig(histUrl+'hist_left.png', bbox_inches='tight')
+plt.close(fig)

@@ -22,87 +22,7 @@
     <favorites_list name="HRAnalytic" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="scatter_satisfaction_left.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scatterimages/scatter_satisfaction_left.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scatter_satisfaction_lastevaluation.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scatterimages/scatter_satisfaction_lastevaluation.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scatter_satisfaction_averagemontlyhours.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scatterimages/scatter_satisfaction_averagemontlyhours.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scatter_last_evaluation_timespendcompany.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scatterimages/scatter_last_evaluation_timespendcompany.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scatter_last_evaluation_left.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scatterimages/scatter_last_evaluation_left.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boxplot.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boxplot.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boxplot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boxplot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Calculate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Calculate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="histogram.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/histogram.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="histogram.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/histogram.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,8 +36,8 @@
       <list>
         <option value="$PROJECT_DIR$/Calculate.py" />
         <option value="$PROJECT_DIR$/boxplot.py" />
-        <option value="$PROJECT_DIR$/histogram.py" />
         <option value="$PROJECT_DIR$/Scatter.py" />
+        <option value="$PROJECT_DIR$/histogram.py" />
       </list>
     </option>
   </component>
@@ -180,7 +100,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.Calculate">
+  <component name="RunManager" selected="Python.histogram">
     <configuration default="false" name="Calculate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -391,9 +311,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.Calculate" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Scatter" />
-        <item index="2" class="java.lang.String" itemvalue="Python.histogram" />
+        <item index="0" class="java.lang.String" itemvalue="Python.histogram" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Calculate" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Scatter" />
         <item index="3" class="java.lang.String" itemvalue="Python.boxplot" />
       </list>
     </recent_temporary>
@@ -412,10 +332,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -493,13 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/pandas/io/excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="182" column="4" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fig1.png" />
     <entry file="file://$PROJECT_DIR$/scatter_workaccident_avgmontlyhours.png" />
     <entry file="file://$PROJECT_DIR$/scatter_numberproject_avgmontlyhours.png" />
@@ -534,16 +447,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scatter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="141" column="20" selection-start-line="141" selection-start-column="20" selection-end-line="141" selection-end-column="20" />
-          <folding>
-            <element signature="e#40#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scatterimages/scatter_workaccident_promotionlast5years.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -570,11 +473,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scatterimages/scatter_satisfaction_promotionlast5years.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scatterimages/scatter_satisfaction_left.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -620,15 +518,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scatterimages/scatter_satisfaction_left.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="453" column="32" selection-start-line="453" selection-start-column="7" selection-end-line="453" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/pandas/tools/plotting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="2920" column="0" selection-start-line="2920" selection-start-column="0" selection-end-line="2920" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/pandas/io/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-412">
+          <caret line="282" column="41" selection-start-line="282" selection-start-column="31" selection-end-line="282" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/histogram.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scatter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histograms/hist_last_evaluation.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histograms/hist_left.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histograms/hist_number_project.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histograms/hist_satisfaction_level.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histograms/hist_Work_accident.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histograms/hist_time_spend_company.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histograms/hist_average_montly_hours.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/histogram.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="238">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding />
         </state>
       </provider>
