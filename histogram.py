@@ -8,7 +8,7 @@ mpl.use('agg')
 import matplotlib.pyplot as plt
 
 ## Create data
-df = pd.read_excel("C:/test.xls")
+df = pd.read_excel("C:/HR_Data.xlsx")
 
 
 df.plot.hist(alpha=0.5)
