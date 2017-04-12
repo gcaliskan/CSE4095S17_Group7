@@ -12,54 +12,21 @@ boxplotUrl="boxplots/"
 
 ## Create data
 df = pd.read_excel(DataUrl)
-fig, ax = plt.subplots(figsize=(9,  6))
-df.boxplot([0])
-fig.savefig(boxplotUrl+'satisfaction_level.png', bbox_inches='tight')
-plt.close(fig)
 
-df = pd.read_excel(DataUrl)
-fig, ax = plt.subplots(figsize=(9,  6))
-df.boxplot([1])
-fig.savefig(boxplotUrl+'last_evaluation.png', bbox_inches='tight')
-plt.close(fig)
+df = df[df.salary != 'low']
+df = df[df.salary != 'medium']
 
+#ax = df.average_montly_hours.plot(xticks=df.index, rot=90)
+#ax.set_xticklabels(df.sales)
 
-df = pd.read_excel(DataUrl)
-fig, ax = plt.subplots(figsize=(9,  6))
-df.boxplot([2])
-fig.savefig(boxplotUrl+'number_project.png', bbox_inches='tight')
-plt.close(fig)
+groups = df.groupby('salary')
 
+fig, ax = plt.subplots()
+ax.margins(0.05) # Optional, just adds 5% padding to the autoscaling
+for name, group in groups:
+    ax.plot(group.average_montly_hours, group.number_project, marker='o', linestyle='', ms=12, label=name)
+ax.legend()
 
-df = pd.read_excel(DataUrl)
-fig, ax = plt.subplots(figsize=(9,  6))
-df.boxplot([3])
-fig.savefig(boxplotUrl+'average_montly_hours.png', bbox_inches='tight')
-plt.close(fig)
+fig2 = plt.figure(1, figsize=(9, 6))
 
-
-df = pd.read_excel(DataUrl)
-fig, ax = plt.subplots(figsize=(9,  6))
-df.boxplot([4])
-fig.savefig(boxplotUrl+'time_spend_company.png', bbox_inches='tight')
-plt.close(fig)
-
-
-df = pd.read_excel(DataUrl)
-fig, ax = plt.subplots(figsize=(9,  6))
-df.boxplot([5])
-fig.savefig(boxplotUrl+'Work_accident.png', bbox_inches='tight')
-plt.close(fig)
-
-df = pd.read_excel(DataUrl)
-fig, ax = plt.subplots(figsize=(9,  6))
-df.boxplot([6])
-fig.savefig(boxplotUrl+'left.png', bbox_inches='tight')
-plt.close(fig)
-
-df = pd.read_excel(DataUrl)
-fig, ax = plt.subplots(figsize=(9,  6))
-df.boxplot([7])
-fig.savefig(boxplotUrl+'promotion_last_5years.png', bbox_inches='tight')
-plt.close(fig)
-
+fig2.savefig('compare/montlyhours_left_high.png', bbox_inches='tight')
