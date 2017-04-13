@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import xlrd
 
-data = pd.read_csv("C:/data.csv")
+data = pd.read_excel("C:/HR_Data.xls")
 
 
 # Calculates the entropy of the given data set for the target attribute.
