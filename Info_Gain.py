@@ -3,7 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import xlrd
 
-data = pd.read_excel("C:/HR_Data.xls")
+DataUrl = "C:/HR_Data.xlsx"
+data = pd.read_excel(DataUrl)
 
 
 # Calculates the entropy of the given data set for the target attribute.
@@ -20,7 +21,7 @@ def entropy(target_attr):
 
     # Calculate the entropy of the data for the target attribute
     for freq in val_freq.values():
-        data_entropy += (-freq / len(data)) * math.log(freq / len(data), 2)
+        data_entropy += (-freq / len(data)) * Math.log(freq / len(data), 2)
 
     return data_entropy
 
@@ -31,7 +32,7 @@ def entropy(data, target_attr):
 
     # Calculate the frequency of each of the values in the target attr
     for record in data:
-        if (val_freq.has_key(record[target_attr])):
+        if (record[target_attr] in val_freq):
             val_freq[record[target_attr]] += 1.0
         else:
             val_freq[record[target_attr]] = 1.0
@@ -51,7 +52,8 @@ def gain(attr, target_attr):
 
     # Calculate the frequency of each of the values in the target attribute
     for record in data:
-        if (val_freq.has_key(record[attr])):
+        #if (val_freq.has_key(record[attr])):
+        if (record[attr] in val_freq):
             val_freq[record[attr]] += 1.0
         else:
             val_freq[record[attr]] = 1.0
